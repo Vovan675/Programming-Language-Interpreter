@@ -1,0 +1,13 @@
+use "std"
+
+
+def func(a, b) {
+	test = a+b
+	return test
+}
+
+a = 41
+
+tst = func(a, a*2)
+
+print(tst)
